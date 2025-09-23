@@ -45,3 +45,5 @@ Evaluation script example:
 ```
 CUDA_VISIBLE_DEVICES=0 python image_sample.py --use_ddim False --dataname "brain_tumor" --model_path <path-for-model-weights> --data_dir "./data/" --use_sparse True --use_bg True --cal_bgnum True --overlap_w 0.1 --cut_padding 2 --n_gen 25
 ```
+
+Pretrained model weights can be found [here](https://drive.google.com/drive/folders/1Xg1cS24nqkJ0ArkJWp4522ezaqEYQ2-0?usp=drive_link).
